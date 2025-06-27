@@ -1,0 +1,66 @@
+# Page snapshot
+
+```yaml
+- dialog:
+  - paragraph
+  - heading "Login process for SMT users" [level=2]
+  - paragraph: The login process for SMT uses strong security measures to ensure your personal credentials and your country’s data are fully protected.
+  - paragraph
+  - paragraph: Please read the instructions below and then click on proceed to login when you are ready to continue.
+  - text: A. UNICEF employee
+  - paragraph:
+    - text: If you are registered in SMT with your
+    - strong: UNICEF email
+    - text: ", you only have to click on the"
+    - strong: UNICEF button
+    - text: on the next page and you will access SMT directly with your UNICEF email and password.
+  - paragraph:
+    - text: If you are not yet registered in SMT with your
+    - strong: UNICEF email
+    - text: ", you should reach out to the e-mail address below to receive access. Once access has been granted, you can login using the UNICEF button."
+  - text: B. GMAIL users
+  - paragraph:
+    - text: If you are registered in SMT with your
+    - strong: Gmail account
+    - text: ", you only have to click on the"
+    - strong: Google button
+    - text: on the next page and you will be able to access SMT with your Gmail username and password.
+  - paragraph:
+    - text: If you are not yet registered in SMT with your
+    - strong: Gmail account
+    - text: ", you should reach out to the e-mail address below to receive access. Once access has been granted, you can login using the"
+    - strong: Google button
+    - text: .
+  - text: C. Microsoft users
+  - paragraph:
+    - text: If you are registered in SMT with your
+    - strong: Microsoft account (e.g. Outlook, Hotmail, etc)
+    - text: ", you only have to click on the"
+    - strong: Microsoft Account button
+    - text: on the next page and you will be able to access SMT with your Microsoft username and password.
+  - paragraph:
+    - text: If you are not yet registered in SMT with your
+    - strong: Microsoft account
+    - text: ", you should reach out to the e-mail address below to receive access. Once access has been granted, you can login using the"
+    - strong: Microsoft button
+    - text: .
+  - text: D. Other users
+  - paragraph:
+    - text: If you are using a different email address to the ones mentioned above
+    - strong: (e.g. yahoo, WHO)
+    - text: ", then on first entry you are required to use the"
+    - strong: Sign Up Now
+    - text: functionality to initialize your profile.
+  - paragraph: If you are not yet registered in SMT with this account, you should reach out to the e-mail address below to receive access. Once access has been granted, you can login using the email and password entered during the sign up process.
+  - paragraph: If at any point you forget your password you can use the Forgot Your Password functionality.
+  - paragraph:
+    - strong:
+      - text: Please get in touch at
+      - link "SMT@unicef.org":
+        - /url: mailto:SMT@unicef.org
+      - text: if you require access or further support with the login process.
+  - checkbox "Don't show this dialog again!"
+  - text: Don't show this dialog again!
+  - button "Back To Home Page"
+  - button "Proceed To Login"
+```
