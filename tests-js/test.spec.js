@@ -10,6 +10,8 @@ test('login as Country Admin', async ({ page }) => {
   const flow = new LoginRolePage(page);
   await flow.gotoHome();
   await flow.openLoginDialog();
+  // Debug: Take screenshot after opening login dialog
+  await page.screenshot({ path: 'country-admin-login-dialog.png' });
   await flow.dismissDialog();
   await flow.fillCredentials(EMAIL, PASSWORD);
   await flow.selectRole('Country Admin');
@@ -24,6 +26,8 @@ test('login as Store Operator', async ({ page }) => {
   const flow = new LoginRolePage(page);
   await flow.gotoHome();
   await flow.openLoginDialog();
+  // Debug: Take screenshot after opening login dialog
+  await page.screenshot({ path: 'store-operator-login-dialog.png' });
   await flow.dismissDialog();
   await flow.fillCredentials(EMAIL, PASSWORD);
   await flow.selectRole('Store Operator');
